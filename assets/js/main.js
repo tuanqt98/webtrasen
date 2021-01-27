@@ -70,24 +70,11 @@ var glide = new Glide('.glide__nghe-nhan', {
 
 glide.mount()
 
-var glide = new Glide('.glide__nghe-nhan2', {
-    perView: 5,
-    breakpoints: {
-        1024: {
-            perView: 5
-        },
-        767: {
-            perView: 2
-        },
-        575: {
-            perView: 1
-        },
-    }
-})
+
 
 glide.mount()
     // sp-lien-quan 
-var glide = new Glide('.glide__2', {
+var glide = new Glide('.glide_2', {
     perView: 4,
     breakpoints: {
         1024: {
