@@ -1,0 +1,68 @@
+.wrapper__contact {
+    padding-top: 80px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.wrapper__contact .lienhe h2 {
+    font-size: 26px;
+}
+
+.wrapper__contact .lienhe {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.lienhe .form-control {
+    margin-bottom: 10px;
+}
+
+.lienhe .btn {
+    background-color: #899a29;
+    color: #fff;
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+    border: none;
+}
+
+@media (max-width: 320px) {
+    .lienhe {
+        margin-top: 20px;
+    }
+    .wrapper__contact .lienhe h2 {
+        font-size: 16px;
+    }
+    .lienhe .form-control {
+        margin-bottom: 5px;
+        padding: 2px;
+    }
+    .lienhe .btn {
+        padding: 2px;
+        width: 30%;
+        font-size: 15px;
+    }
+}
+
+
+}
+@media only screen and (min-width: 321px) and (max-width: 576px) {
+    .wrapper__contact .lienhe h2 {
+        font-size: 16px;
+    }
+    
+    .lienhe .form-control {
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    .wrapper__contact .lienhe h2 {
+        font-size: 20px;
+    }
+    
+    .lienhe .form-control {
+        margin-bottom: 5px;
+    }
+}

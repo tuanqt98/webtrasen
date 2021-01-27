@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tra Sen || Bach Diep</title>
+
+    <!-- FONT-AWESOME  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+    <!-- BOOTSTRAP  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- glidejs  -->
+    <link rel="stylesheet" href="./assets/css/glide.core.min.css">
+    <link rel="stylesheet" href="./assets/css/glide.theme.min.css">
+
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/sanpham.css">
+
+    <body>
+        <header class="wrapper__navication">
+
+            <div class="container navBar">
+                <div class="logo">
+                    <a href="#"><img src="../assets/images/trang-chu/logophongtra.png" alt="logophongtra"></a>
+                </div>
+                <ul class="nav-list">
+                    <div class="icon close-btn">
+                        <i class="fas fa-times"></i>
+
+                    </div>
+                    <li>
+                        <a href="../index.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="./gioithieu.html">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="./sanpham.html">Sản phẩm</a>
+                    </li>
+                    <li>
+                        <a href="./tintuc.html">Tin tức</a>
+                    </li>
+                    <li>
+                        <a href="./lienhe.html">Liên hệ</a>
+                    </li>
+                </ul>
+                <div class="icon menu-btn">
+                    <i class="fas fa-bars"></i>
+
+                </div>
+            </div>
+
+        </header>
+
+        <!-- END HEADER  -->
+
+        <!-- SECTION BANNER -->
+        <section class="banner__product">
+            <div class="banner-title">
+                <h2>SẢN PHẨM</h2>
+            </div>
+        </section>
+
+        <!-- SECTION PRODUCT  -->
+        <section class="wrapper__product">
+            <div class="container">
+                <span class="desc-top">Trang chủ > Sản Phẩm </span>
+                <h2>Sản Phẩm</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-md-3">
+                        <span class="bo-loc-san-phamm">Bộ lọc sản phẩm</span>
+                        <div class="loai-san-pham">
+                            <h4>Loại sản phẩm</h4>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                 Trà xanh thái nguyên
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckChecked">
+                                 Trà ô long 
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckChecked">
+                                  Trà Shan Tuyết
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckChecked">
+                                 Trà sen 
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckChecked">
+                                Trà lài 
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckChecked">
+                                Trà thảo dược
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckChecked">
+                               Dụng cụ pha trà
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckChecked">
+                                  Nước pha trà
+                                </label>
+                            </div>
+                        </div>
+                        <div class="gia-thanh">
+                            <h4>Giá thành</h4>
+                            <div class="slidecontainer">
+                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                                <p>Từ 50000 đến 200000<span id="demo"></span></p>
+                            </div>
+                        </div>
+                        <div class="thuong-hieu">
+                            <h4>Thương hiệu</h4>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckChecked">
+                                Trà Tân Cương Xanh
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                Trà Sen Tây Hồ
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                               Trà Lộc Tân
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-9">
+                        <form>
+                            <div class="form-row justify-content-end">
+                                <div class="col-auto my-1">
+                                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                  <option selected>Thứ tự mặc định</option>
+                                  <option value="1">Giá thấp đến cao</option>
+                                  <option value="2">Giá cao đến thấp</option>
+                                  <option value="3">Xếp theo đánh giá</option>
+                                  <option value="3">Xếp theo phổ biến</option>
+                                </select>
+                                </div>
+
+                            </div>
+                        </form>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="item__top d-flex justify-content-between">
+                                        <div class="item__top-left">
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                        </div>
+                                        <div class="item__top-right">
+                                            <a href="#" class="btn-new">New</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-product text-center">
+                                        <img src="../assets/images/san-pham/sanpham1.png" alt="sp1">
+                                        <p>Trà Shan Tuyết</p>
+                                        <div class="item__buttom">
+                                            <span class="price">
+                                                50,000<sub>vnđ</sub>
+                                            </span>
+                                            <span class="trongluong"> 
+                                                <select name="khoiluong" id="khoiLuong">
+                                                    <option value="1">200g</option>
+                                                    <option value="2">300g</option>
+                                                    <option value="3">500g</option>
+                                                </select>
+                                            </span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="item__top d-flex justify-content-between">
+                                        <div class="item__top-left">
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                        </div>
+                                        <div class="item__top-right">
+                                            <a href="#" class="btn-new">New</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-product text-center">
+                                        <img src="../assets/images/san-pham/sanpham2.png" alt="sp1">
+                                        <p>Trà Shan Tuyết</p>
+                                        <div class="item__buttom">
+                                            <span class="price">
+                                                50,000<sub>vnđ</sub>
+                                            </span>
+                                            <span class="trongluong"> 
+                                                <select name="khoiluong" id="khoiLuong">
+                                                    <option value="1">200g</option>
+                                                    <option value="2">300g</option>
+                                                    <option value="3">500g</option>
+                                                </select>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="item__top d-flex justify-content-between">
+                                        <div class="item__top-left">
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                        </div>
+                                        <div class="item__top-right">
+                                            <a href="#" class="btn-new">New</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-product text-center">
+                                        <img src="../assets/images/san-pham/sanpham3.png" alt="sp1">
+                                        <p>Trà Shan Tuyết</p>
+                                        <div class="item__buttom">
+                                            <span class="price">
+                                                50,000<sub>vnđ</sub>
+                                            </span>
+                                            <span class="trongluong"> 
+                                                <select name="khoiluong" id="khoiLuong">
+                                                    <option value="1">200g</option>
+                                                    <option value="2">300g</option>
+                                                    <option value="3">500g</option>
+                                                </select>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="item__top d-flex justify-content-between">
+                                        <div class="item__top-left">
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                        </div>
+                                        <div class="item__top-right">
+                                            <a href="#" class="btn-new">New</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-product text-center">
+                                        <img src="../assets/images/san-pham/sanpham1.png" alt="sp1">
+                                        <p>Trà Shan Tuyết</p>
+                                        <div class="item__buttom">
+                                            <span class="price">
+                                                50,000<sub>vnđ</sub>
+                                            </span>
+                                            <span class="trongluong"> 
+                                                <select name="khoiluong" id="khoiLuong">
+                                                    <option value="1">200g</option>
+                                                    <option value="2">300g</option>
+                                                    <option value="3">500g</option>
+                                                </select>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="item__top d-flex justify-content-between">
+                                        <div class="item__top-left">
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                        </div>
+                                        <div class="item__top-right">
+                                            <a href="#" class="btn-new">New</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-product text-center">
+                                        <img src="../assets/images/san-pham/sanpham2.png" alt="sp1">
+                                        <p>Trà Shan Tuyết</p>
+                                        <div class="item__buttom">
+                                            <span class="price">
+                                                50,000<sub>vnđ</sub>
+                                            </span>
+                                            <span class="trongluong"> 
+                                                <select name="khoiluong" id="khoiLuong">
+                                                    <option value="1">200g</option>
+                                                    <option value="2">300g</option>
+                                                    <option value="3">500g</option>
+                                                </select>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="item__top d-flex justify-content-between">
+                                        <div class="item__top-left">
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                        </div>
+                                        <div class="item__top-right">
+                                            <a href="#" class="btn-new">New</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-product text-center">
+                                        <img src="../assets/images/san-pham/sanpham3.png" alt="sp1">
+                                        <p>Trà Shan Tuyết</p>
+                                        <div class="item__buttom">
+                                            <span class="price">
+                                            50,000<sub>vnđ</sub>
+                                        </span>
+                                            <span class="trongluong"> 
+                                            <select name="khoiluong" id="khoiLuong">
+                                                <option value="1">200g</option>
+                                                <option value="2">300g</option>
+                                                <option value="3">500g</option>
+                                            </select>
+                                        </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="item__top d-flex justify-content-between">
+                                        <div class="item__top-left">
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                        </div>
+                                        <div class="item__top-right">
+                                            <a href="#" class="btn-new">New</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-product text-center">
+                                        <img src="../assets/images/san-pham/sanpham1.png" alt="sp1">
+                                        <p>Trà Shan Tuyết</p>
+                                        <div class="item__buttom">
+                                            <span class="price">
+                                                50,000<sub>vnđ</sub>
+                                            </span>
+                                            <span class="trongluong"> 
+                                                <select name="khoiluong" id="khoiLuong">
+                                                    <option value="1">200g</option>
+                                                    <option value="2">300g</option>
+                                                    <option value="3">500g</option>
+                                                </select>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="item__top d-flex justify-content-between">
+                                        <div class="item__top-left">
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                        </div>
+                                        <div class="item__top-right">
+                                            <a href="#" class="btn-new">New</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-product text-center">
+                                        <img src="../assets/images/san-pham/sanpham2.png" alt="sp1">
+                                        <p>Trà Shan Tuyết</p>
+                                        <div class="item__buttom">
+                                            <span class="price">
+                                                50,000<sub>vnđ</sub>
+                                            </span>
+                                            <span class="trongluong"> 
+                                                <select name="khoiluong" id="khoiLuong">
+                                                    <option value="1">200g</option>
+                                                    <option value="2">300g</option>
+                                                    <option value="3">500g</option>
+                                                </select>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="item__top d-flex justify-content-between">
+                                        <div class="item__top-left">
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                        </div>
+                                        <div class="item__top-right">
+                                            <a href="#" class="btn-new">New</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-product text-center">
+                                        <img src="../assets/images/san-pham/sanpham3.png" alt="sp1">
+                                        <p>Trà Shan Tuyết</p>
+                                        <div class="item__buttom">
+                                            <span class="price">
+                                                50,000<sub>vnđ</sub>
+                                            </span>
+                                            <span class="trongluong"> 
+                                                <select name="khoiluong" id="khoiLuong">
+                                                    <option value="1">200g</option>
+                                                    <option value="2">300g</option>
+                                                    <option value="3">500g</option>
+                                                </select>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="pagination">
+                                <span>1</span>
+                                <span>2</span>
+                                <span>3</span>
+                                <span>4</span>
+                                <span class="icon">››</span>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION FOOTER  -->
+        <footer>
+            <div class="footer-top" data-aos="fade-up">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-xs-12" data-aos="fade-up">
+                            <a href=""><img src="../assets/images/trang-chu/logophongtra.png" alt=""></a>
+                            <p>0978611889</p>
+                            <p>chungtrinh@gmail.com</p>
+                            <p>Số 25 Phố Vũ Ngọc Phan, Láng Hạ, Đống Đa, Hà Nộ</p>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="about-us">
+                                <h3>VỀ CHÚNG TÔI</h3>
+                                <ul>
+                                    <li><a href="./gioithieu.html">GIỚI THIỆU</a>
+                                    </li>
+                                    <li><a href="./sanpham.html">SẢN PHẨM</a>
+                                    </li>
+                                    <li><a href="./tintuc.html">TIN TỨC</a>
+                                    </li>
+                                    <li><a href="./lienhe.html">LIÊN HỆ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="about-us">
+                                <h3>LIÊN HỆ</h3>
+                                <a href=""><i class="fab fa-youtube-square"></i></a>
+                                <a href=""><i class="fab fa-facebook-square"></i></a>
+                                <a href=""><i class="fas fa-envelope"></i></a>
+                                <p>Copyright © 2010-2020</p>
+                                <p>Tra Sen Bach Diep. All rights reserved</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- GLidejs -->
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="../assets/js/main.js"></script>
+
+    <!-- AOS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</html>
